@@ -1,5 +1,5 @@
-Flask>=2.0.1
-tensorflow==2.10.0  # Replace with your version
-opencv-python>=4.5.3
-numpy>=1.19.5
+Flask
+tensorflow  # Replace with your version
+opencv-python
+numpy
 gunicorn
