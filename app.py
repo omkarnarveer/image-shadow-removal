@@ -56,3 +56,5 @@ if __name__ == '__main__':
     os.makedirs(app.config['UPLOAD_FOLDER'], exist_ok=True)
     os.makedirs('static/results', exist_ok=True)
     app.run(debug=False)
+    port = int(os.environ.get('PORT', 10000))  # Use Render's PORT or default to 5000
+    app.run(host='0.0.0.0', port=port)
